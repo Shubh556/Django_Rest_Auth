@@ -24,6 +24,15 @@ This project provides a user authentication system using Django and Django REST 
  `[POST] /api/user/send-reset-password-email/`
 - Reset Password
  `[POST] /api/user/reset-password/<uid>/ <token>/`
+- Update Profile 
+ `[PUT] /api/user/update-profile/`
+- Delete Profile 
+`[DELETE] /api/user/delete-profile/` 
+
+
+## Note 
+
+For `Deleting` and `Updating` user you will need access token which you will get when user `gets register` 
 
 
 ## Email Configuration
@@ -68,4 +77,13 @@ To send password reset emails, you need to configure your email settings in the 
 ## Password Reset Successfull
 ![Home Pages1](https://github.com/Shubh556/Django_Rest_Auth/blob/main/img/successfull%20password%20reset%20.png?raw=true)
 
+## Update User Details 
 
+![Home Pages1](https://github.com/Shubh556/Django_Rest_Auth/blob/main/img/update%20profile%201.png?raw=true)
+
+
+![Home Pages1](https://github.com/Shubh556/Django_Rest_Auth/blob/main/img/update%20profile%202.png?raw=true)
+
+## Delete User Profile 
+
+![Home Pages1](https://github.com/Shubh556/Django_Rest_Auth/blob/main/img/delete%20profile.png?raw=true)
