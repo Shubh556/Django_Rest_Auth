@@ -1,5 +1,5 @@
 
-# Django User Authentication System
+# Django User Authentication System Using Django Rest Frame Work 
 
 This project provides a user authentication system using Django and Django REST Framework. It includes features such as user registration, login, profile management, password change, and password reset.
 
